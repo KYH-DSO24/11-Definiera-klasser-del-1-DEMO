@@ -10,7 +10,9 @@ Dog firstDog = new Dog(dogName, dogBreed);
 //Andra hunden: ge namn och ras via metoder
 Dog secondDog = new Dog();
 
-Console.Write("Ange namn för andra hunden: ");
+// Yes sir
+
+Console.Write("Ange namn för den smarta hunden: ");
 dogName = Console.ReadLine();
 
 Console.Write("Ange ras för andra hunden: ");
