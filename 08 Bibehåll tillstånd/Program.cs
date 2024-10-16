@@ -3,10 +3,10 @@
     private string name;
     public Person(string name)
     {
-        //if (String.IsNullOrEmpty(name))
-        //{
-        //    throw new ArgumentException("Invalid name!");
-        //}
+        if (String.IsNullOrEmpty(name))
+        {
+            throw new ArgumentException("Invalid name!");
+        }
         this.name = name;
     }
 
