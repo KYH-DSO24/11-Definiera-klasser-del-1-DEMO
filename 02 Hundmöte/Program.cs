@@ -12,7 +12,7 @@ Dog secondDog = new Dog();
 
 // Yes sir
 
-Console.Write("Ange namn för den smarta hunden: ");
+Console.Write("Ange namn för den smarta hunden: 55 ");
 dogName = Console.ReadLine();
 
 Console.Write("Ange ras för andra hunden: ");
