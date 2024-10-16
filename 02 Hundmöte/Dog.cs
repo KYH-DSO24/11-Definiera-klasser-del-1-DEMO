@@ -26,6 +26,7 @@
         set { this.breed = value; }
     }
 
+    public int Age { get; set; }
     public void SayBau()
     {
         // Skriv ut hundens namn. Om namnet är null, skriv ut "[unnamed dog]"
