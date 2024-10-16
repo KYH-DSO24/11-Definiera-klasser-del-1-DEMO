@@ -50,8 +50,8 @@ public class Person
 
 public class AlarmClock
 {
-    public int hours = 9;
-    public int minutes = 0;
+    public int hours = 10;
+    public int minutes = 20;
 
     // Parameterlös konstruktor
     public AlarmClock()
